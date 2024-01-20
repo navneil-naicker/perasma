@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com/; style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline';">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Perasma</title>
+  </head>
+  <body>
+    <h1>Perasma</h1>
+    <div class="search-box">
+      <input type="search" placeholder="Search..."/>
+    </div>
+    <div class="table responsive">
+      <table>
+        <tr>
+          <th class="application">Application</th>
+          <th class="username">Username</th>
+          <th class="password">Password</th>
+          <th class="url">URL</th>
+          <th class="action">Action</th>
+        </th>
+        <tr>
+          <td>
+            <span class="text">Google</span>
+          </td>
+          <td>
+            <span class="text">me@example.com</span>
+            <a class="copy" href="#" title="Copy">📋</a>
+          </td>
+          <td class="row-password">
+            <span class="text">***********************</span>
+            <span class="plain-text">mypassword</span>
+            <a class="copy" href="#" title="Copy">📋</a>
+          </td>
+          <td>
+            <span class="text"><a href="#">https://www.example.com</a></span>
+            <a class="copy" href="#" title="Copy">📋</a>
+          </td>
+          <td>
+            <a class="delete" href="#" title="Delete">Delete</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

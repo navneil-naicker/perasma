@@ -1,0 +1,18 @@
+{
+  "name": "electron-perasma",
+  "version": "1.0.0",
+  "description": "A minimal password manager for desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Navneil Naicker",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^28.1.3",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

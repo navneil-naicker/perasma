@@ -1,0 +1,68 @@
+html {
+    margin: 0px;
+    background: #EFF2F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.search-box {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.table table {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table table th, 
+.table table td {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+}
+
+.table table th {
+    background: #F3F6F9;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    max-width: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.table tr td span.text {
+    width: 93%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.table tr td a.copy {
+    width: 12%;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    text-decoration: none;
+}
+
+.table tr td .plain-text {
+    display: none;
+}
+
+.table tr td.row-password .text {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.search-box input {
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #b7b7b7;
+}
