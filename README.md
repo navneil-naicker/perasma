@@ -1,2 +1,2 @@
 # perasma
-A minimal password manager for desktop
+A minimal password manager for Windows.
